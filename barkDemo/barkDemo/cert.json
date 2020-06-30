@@ -1,0 +1,10 @@
+{
+    "apnsserver": 0, //证书类型 1是线上证书 0是测试证书
+    "certpath": "cert-20210125.p12",
+    "certpassword": "bp",
+    "devicetokenlength": 64,
+    "option": {
+        "Name": "nam123e",
+        "Id": 56
+    }
+}
