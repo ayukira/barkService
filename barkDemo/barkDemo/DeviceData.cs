@@ -14,7 +14,7 @@ namespace barkDemo
             string[] tokens = new string[tokenCount];
             for (int i = 0; i < tokenCount; i++)
             {
-                tokens[i] = "cb09b355cd2b4e85ee1fd89801e575ced7d4eb4f281f56aeec44156453103a76";
+                tokens[i] = "deviceTokenCode";
             }
             if (tokens == null) { tokens = new string[0]; }
             return tokens;
