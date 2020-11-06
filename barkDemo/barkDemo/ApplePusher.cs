@@ -47,9 +47,9 @@ namespace barkDemo
         }).Build();
         ApnsConfiguration config;
         ApnsServiceBroker apnsBroker;
-        string CertPath = string.Empty;
-        string CertPassWord = string.Empty;
-        int DeviceTokenLength = 64;
+        readonly string CertPath = string.Empty;
+        readonly string CertPassWord = string.Empty;
+        readonly int DeviceTokenLength = 64;
         ApnsServerEnvironment apnsServerEnvironment = ApnsServerEnvironment.Production;
 
         public ApplePusher()
